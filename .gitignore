@@ -1,0 +1,43 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+
+# ==========================
+# Playwright Generated Files
+# ==========================
+playwright-report/
+test-results/
+reports/
+screenshots/
+videos/
+
+# ==========================
+# Authentication State
+# ==========================
+.auth/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+
+# ==========================
+# Logs
+# ==========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# VS Code (Optional)
+# ==========================
+.vscode/
