@@ -3,7 +3,7 @@ import test from "node:test";
 export const users = {
 
     StandardUser: {
-        username: 'standard_user',
+        username: 'standard_userrr',
         password: 'secret_sauce'
     },
 
