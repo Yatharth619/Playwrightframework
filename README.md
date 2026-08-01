@@ -185,6 +185,6 @@ During this project I practiced:
 
 ## Author
 
-**Your Name**
+Yatharth
 
 QA Automation Engineer
