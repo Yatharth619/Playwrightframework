@@ -4,8 +4,7 @@ import { users } from "../data/logindata";
 
 test ("cart page check", async({loginPage, inventoryPage, cartPage}) => {
 
-    await loginPage.navigate()
-    await loginPage.login(users.StandardUser.username, users.StandardUser.password )
+    await inventoryPage.navigate()
     await inventoryPage.addProductToCart("Sauce Labs Backpack")
     await inventoryPage.cartClick()
     await expect(cartPage.cartTitle).toHaveText("Your Cart")
