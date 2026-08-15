@@ -172,17 +172,6 @@ During this project I practiced:
 
 ---
 
-## Future Enhancements
-
-- CI/CD with GitHub Actions
-- Docker support
-- Parallel execution optimization
-- Data-driven testing
-- Environment configuration
-- Visual regression testing
-
----
-
 ## Author
 
 Yatharth
