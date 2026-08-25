@@ -1,6 +1,5 @@
 import { expect } from "@playwright/test"
 import { test } from "../fixtures/pages"
-import { users } from "../data/logindata"
 
 test("Inventory page check", async({loginPage, inventoryPage }) =>
     {

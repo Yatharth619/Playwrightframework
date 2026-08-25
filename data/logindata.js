@@ -1,7 +1,5 @@
-import test from "node:test";
-
 export const users = {
-
+    
     StandardUser: {
         username: 'standard_user',
         password: 'secret_sauce'

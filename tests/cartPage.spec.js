@@ -1,8 +1,7 @@
 import { test} from "../fixtures/pages";
 import { expect } from "@playwright/test";
-import { users } from "../data/logindata";
 
-test ("cart page check", async({loginPage, inventoryPage, cartPage}) => {
+test ("cart page check", async({inventoryPage, cartPage}) => {
 
     await inventoryPage.navigate()
     await inventoryPage.addProductToCart("Sauce Labs Backpack")
