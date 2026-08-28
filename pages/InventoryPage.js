@@ -19,11 +19,11 @@ export class InventoryPage
     }
         async cartClick(){
         await this.cartIcon.click()
-        }
+    }
         async navigate() {
-    await this.page.goto("/inventory.html")
+        await this.page.goto("/inventory.html")
+    }
 }
-          }
 
 
 
